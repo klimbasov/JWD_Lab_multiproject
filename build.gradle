@@ -1,0 +1,12 @@
+allprojects{
+    group 'org.epam.laborotory.module.first'
+    version '1.0'
+}
+subprojects {
+    repositories {
+        mavenCentral()
+        maven { url "file://D:/Projects/repos/"}
+    }
+}
+
+
